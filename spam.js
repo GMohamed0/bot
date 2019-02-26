@@ -6,8 +6,8 @@ const client = new Discord.Client();
 
 
 client.on('ready', async() => {
-var server = "456294249785196555"; // ايدي السيرفر
-var channel = "511268102181355532";// ايدي الروم
+var server = "519915294739660800"; // ايدي السيرفر
+var channel = "550006421706506251";// ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('Darkness Spam ,Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam , Darkness Spam ,  ')
     },305);
